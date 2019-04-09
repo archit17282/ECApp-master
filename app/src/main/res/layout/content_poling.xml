@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".poling"
+    android:weightSum="8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="20dp"
+        android:gravity="center|left"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Matia Mahal"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Total Voters:"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:id="@+id/totalVoters"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="No. of Votes:"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:id="@+id/noOfVotes"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="People in queue:"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:id="@+id/peopleQueue"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="3.5">
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

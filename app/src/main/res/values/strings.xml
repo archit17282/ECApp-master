@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Election Commission</string>
+    <string name="title_activity_voterinfo">voterinfo</string>
+    <string name="title_activity_poling">poling</string>
+</resources>
